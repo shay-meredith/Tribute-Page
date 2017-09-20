@@ -1,0 +1,35 @@
+body {
+    background-color: #E8E8E8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    background-color:#BB2E22;
+    height: 10vmax;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 9vmin;
+    }
+}
+wrapper{
+    text-align: center;
+    margin: 0 auto;
+}
+img {
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    border-radius: 8px;
+  }
