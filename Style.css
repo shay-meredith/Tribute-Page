@@ -1,51 +1,80 @@
+#title {
+    font-weight: 300;
+    font-size: 4em;
+    color: white;
+}
+#subtitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 2em;
+    color: white;
+    background-color:#BB2E22;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 body {
-    background-color: #FAFAFA;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
-    margin: 0px;
-    padding: 0px;
+}
+#main {
+    background-color: #FFFFFF;
+}
+#card {
+    background-color: #FAFAFA;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    padding: 25px 15px 25px 15px;
+    width: 80%;
+    margin: auto;  
 }
 h1 {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 4em;
-    color: white;
     background-color:#BB2E22;
     margin-bottom: 0px;
     margin-top: 20px;
 }
-wrapper{
-    text-align: center;
+#img-div{
     margin: 0 auto;
 }
-img {
+#image {
     margin: 0 auto;
     height: auto;
     width: 300px;
     display: inline-block;
     border-radius: 8px;
   }
-.subtitle {
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 2em;
-    font-style: italic;
-    color: white;
-    background-color:#BB2E22;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-.imgSubtitle {
+#img-caption {
     display: block;
     margin: auto;
     text-align: center;
     font-size: 1em;
     font-style: italic;
     width: 80vmin;
+}
+#tribute-info {
+    font-size: 1.5em;
+    margin: auto;
+}
+blockquote {
+    font-size: .8em;
+    font-weight: 200;
+}
+#tribute-link {
+    color: black;
+}
+footer {
+    text-align: center;
+    color: white;
+    margin: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #656176;
 }
 @media screen and (max-width: 700px) {
     h1 {
