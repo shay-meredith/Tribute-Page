@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 5px gray;
     padding: 25px 15px 25px 15px;
-    width: 80%;
+    max-width: 80%;
     margin: auto;  
 }
 h1 {
@@ -41,12 +41,14 @@ h1 {
 }
 #img-div{
     margin: 0 auto;
+    width: 100%;
 }
 #image {
     margin: 0 auto;
     height: auto;
-    width: 300px;
-    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    display: block;
     border-radius: 8px;
   }
 #img-caption {
@@ -55,7 +57,7 @@ h1 {
     text-align: center;
     font-size: 1em;
     font-style: italic;
-    width: 80vmin;
+    max-width: 80vmin;
 }
 #tribute-info {
     font-size: 1.5em;
@@ -77,10 +79,17 @@ footer {
     background-color: #656176;
 }
 @media screen and (max-width: 700px) {
-    h1 {
-        font-size: 9vmin;
+    #title {
+        font-size: 9vw;
     }
-    .subtitle {
-        font-size: 5vmin;
+    #subtitle {
+        font-size: 5vw;
+    }
+    #card {
+        width: 60%;
+        font-size: 3vw;
+    }
+    blockquote {
+        font-size: 3vw;
     }
 }
